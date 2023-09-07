@@ -33,11 +33,21 @@ class Reserva {
 
 // Declarar Variáveis globais:
 
-let hoteis = [];  // Arrays para guardar hotéis e reservas:
-let reservas = [];
+let hoteis = [  // Arrays para guardar hotéis e reservas:
+  new Hotel(1, "The Ritz", 5, "Rua A, Sao Paulo", "555-1234"),
+  new Hotel(2, "Holiday Inn", 3, "Rua B, Belo Horizonte", "555-5678"),
+  new Hotel(3, "Motel ABC", 2, "Rua C, Limeira", "555-8910"),
+  new Hotel(4, "Resort All Inclusive", 2, "Rua D, Cancun", "555-8910")
+];  
+let reservas = [
+  new Reserva(1, 1, "Jose da Silva", 1, 5),
+  new Reserva(2, 2, "Renato Soares", 2, 6),
+  new Reserva(3, 3, "Livia Andrade", 3, 7),
+  new Reserva(4, 3, "Livia Andrade", 23, 29)
+];
 
-let idHotel = 1; // Iniciar variáveis Ids.
-let idReserva = 1;
+let idHotel = 5; // Iniciar variáveis Ids.
+let idReserva = 5;
 
 
 
